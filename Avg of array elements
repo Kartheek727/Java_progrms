@@ -1,0 +1,13 @@
+import java.util.*;
+public class main{
+    public static void main(String[] args){
+        Scanner obj = new Scanner(System.in);
+        int j[]={2,5,3,9,6};
+        int sum=0;
+        for(int i=0; i<j.length;i++){
+            sum+=j[i];
+        }
+        int avg=sum/j.length;
+        System.out.println(avg);
+    }
+}
