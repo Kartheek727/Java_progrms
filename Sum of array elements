@@ -1,0 +1,17 @@
+import java.util.*;
+class prob{
+    public static void main(String[] args){
+        Scanner obj = new Scanner(System.in);
+        int sum=0;
+        int sumt=0;
+        int mat[][]={{1,2,3},{4,5,6},{7,8,9}};
+        for(int i=0; i<mat.length;i++){
+            int row[]=mat[i];
+            for(int j=0;j<row.length;j++){
+                sum+=row[j];
+            }
+            sum=sum;
+        }
+        System.out.print(sum);
+    }
+}
