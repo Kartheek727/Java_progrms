@@ -1,0 +1,38 @@
+import java.util.*;
+class prob{
+    public static void main(String[] args){
+        Scanner obj = new Scanner(System.in);
+        int sum=0;
+        int sumt=0;
+        int mat[][]={{1,2,3},{4,5,6},{7,8,9}};
+        int mat1[][]={{4,5,6},{7,8,9},{1,2,3}};
+        int res[][]=new int[3][3];
+        System.out.println("Matrix 1 :");
+        for(int i=0; i<mat.length;i++){
+            int row[]=mat[i];
+            for(int j=0;j<row.length;j++){
+                System.out.print(row[j]+" ");
+            }
+             System.out.println();
+        }
+        System.out.println("Matrix 2 :");
+        for(int i=0; i<mat1.length;i++){
+            int row[]=mat1[i]; 
+            for(int j=0;j<row.length;j++){
+                System.out.print(row[j] +" ");
+            }
+             System.out.println();
+        }
+        System.out.println("Addition of two matrices:");
+        for(int i=0;i<res.length;i++){
+            int rows[]=res[i];
+            for(int j=0;j<rows.length;j++){
+                rows[j]= mat[i][j]+mat1[i][j];
+                System.out.print(rows[j] +" ");
+            }
+            System.out.println();
+        }
+ 
+       
+    }
+}
