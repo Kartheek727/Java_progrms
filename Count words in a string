@@ -1,0 +1,9 @@
+import java.util.*;
+class prob{
+    public static void main(String[] args){
+        Scanner obj=new Scanner(System.in);
+        String st=obj.nextLine();
+        int count=st.split("\\s").length;
+        System.out.println(count);
+    }
+}
